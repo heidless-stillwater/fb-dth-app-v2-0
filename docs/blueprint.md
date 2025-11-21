@@ -1,18 +1,19 @@
-# **App Name**: fb-dth-app-v2-0
+# **App Name**: fb-base-app-8
 
 ## Core Features:
 
-- File Upload: Allow users to upload files of various types to their personal storage.
-- File Listing: Display files in a list or grid view, with options for sorting and filtering.
-- File Download: Enable users to download their stored files.
-- File Deletion: Allow users to delete files from their storage.
+- File Upload: Upload files from the user's device to the storage.
+- File Download: Download files from the storage to the user's device.
+- File Deletion: Delete files from the storage.
+- File Listing: List all files in a given directory.
+- Folder Management: Create, rename, and delete folders.
 
 ## Style Guidelines:
 
-- Primary color: Deep indigo (#3F51B5) to represent depth and stability in file storage.
-- Background color: Very light lavender (#F0F2FA), almost white.
-- Accent color: Soft violet (#9575CD), to highlight user actions such as download or delete.
-- Body and headline font: 'Inter', sans-serif, for a modern, neutral, readable style.
-- Use simple, consistent icons for file types (e.g., documents, images, videos).
-- Clean and intuitive layout, with clear separation between file lists and actions.
-- Subtle animations for file upload/download progress and confirmation.
+- Primary color: Calm blue (#64B5F6), evoking trust and reliability.
+- Background color: Light, desaturated blue (#E3F2FD) for a clean and airy feel.
+- Accent color: A contrasting orange (#FFB74D) to highlight important actions like upload and download.
+- Body and headline font: 'Inter' for a modern, clean and readable interface.
+- Use a consistent set of material design icons for file actions and folder navigation.
+- Implement a clean, intuitive layout with a clear file directory structure.
+- Use subtle animations for file uploads, downloads, and deletions to provide visual feedback.
