@@ -18,6 +18,7 @@ const plans = [
     features: ['1 user', '1 project', '1GB storage'],
     isPopular: false,
     cta: 'Get Started',
+    id: 'get-started-plan-button',
   },
   {
     name: 'Pro',
@@ -28,6 +29,7 @@ const plans = [
     isPopular: true,
     cta: 'Upgrade to Pro',
     priceId: 'price_1STn4R8bQ1wpTXPRVuDAgNp0',
+    id: 'pro-plan-button',
   },
   {
     name: 'Custom',
@@ -124,6 +126,7 @@ export default function PricingPage() {
                   </CardContent>
                   <CardFooter className="p-6">
                     <Button
+                      id={plan.id}
                       className="w-full"
                       variant={plan.isPopular ? 'default' : 'outline'}
                       onClick={() => handleCtaClick(plan)}
